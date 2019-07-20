@@ -98,7 +98,8 @@ wp-content/plugins/akismet.php
 
 # ignore specific themes
 wp-content/themes/twenty*/
-wp-content/themes/gulp-dev
+#wp-content/themes/gulp-dev
+!wp-content/themes/twentynineteen
 
 # ignore themes index
 wp-content/themes/index.php
@@ -114,7 +115,3 @@ wp-content/maintenance.php
 node_modules/
 
 # ignore local development files
-
-
-
-
